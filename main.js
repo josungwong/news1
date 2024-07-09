@@ -3,7 +3,7 @@ let news = []
 
 const getLatestNews = async()=>{ // async: 동기함수로 만들기 (await으로 기다리게 만들수 있음)
 
-    const url = new URL(`https://times-node-env.eba-appvq3ef.ap-northeast-2.elasticbeanstalk.com/top-headlines`) // URL: 인스턴스, 미리 필요한걸 해주는거
+    const url = new URL(`https://makenewsapi1.netlify.app/top-headlines?country=kr`) // URL: 인스턴스, 미리 필요한걸 해주는거
 
     console.log("wow",url)
 
