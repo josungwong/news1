@@ -1,4 +1,4 @@
-const apiKey = `fa80bc1d486a4ac3b407ca0ee368b453`
+
 let news = []
 
 const getLatestNews = async()=>{ // async: 동기함수로 만들기 (await으로 기다리게 만들수 있음)
